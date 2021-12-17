@@ -4,16 +4,16 @@ venue:NeurIPS
 task:Program repair
 model:graph-based model
 dataset:
-pdf: https://arxiv.org/abs/1911.01205
+pdf: 
 code:https://github.com/google-research/plur
 
 title:Learning to Fix Build Errors with Graph2Diff Neural Networks
 year:2020
 venue:ICSEW
-task:Program Repair
+task:Program repair
 model:graph-based model
 dataset:
-pdf:
+pdf:https://arxiv.org/abs/1911.01205
 code:
 
 title:deGraphCS: Embedding Variable-based Flow Graph for Neural Code Search
