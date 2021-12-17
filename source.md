@@ -25,5 +25,12 @@ dataset:
 pdf:https://arxiv.org/abs/2103.13020
 code:https://github.com/degraphcs/DeGraphCS
 
-
+title:GraphSearchNet: Enhancing GNNs via Capturing Global Dependency for Semantic Code Search
+year:2021
+venue:arxiv
+task:Code search
+model:graph-based model
+dataset:
+pdf:https://arxiv.org/pdf/2111.02671.pdf
+code:
 

@@ -2,10 +2,10 @@
 
 ## Papers Categories
 papers sort:
-1. [By year](categories/year.md)
-2. [By task](categories/task.md)
-3. [By model](categories/model.md)
-4. [By dataset](categories/dataset.md)
+1. [By year](categories/years.md)
+2. [By task](categories/tasks.md)
+3. [By model](categories/models.md)
+4. [By dataset](categories/datasets.md)
 
 ## contribute to the repository
 

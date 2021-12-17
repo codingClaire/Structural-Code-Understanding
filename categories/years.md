@@ -1,8 +1,9 @@
 # 2021
-|    | title                                                                             | venue   | task           | model             | dataset   | pdf                                    | code                                                 |
-|---:|:----------------------------------------------------------------------------------|:--------|:---------------|:------------------|:----------|:---------------------------------------|:-----------------------------------------------------|
-|  0 | PLUR: A Unifying, Graph-Based View of Program Learning, Understanding, and Repair | NeurIPS | Program repair | graph-based model |           |                                        | [:octocat:](https://github.com/google-research/plur) |
-|  1 | deGraphCS: Embedding Variable-based Flow Graph for Neural Code Search             | arxiv   | Code search    | graph-based model |           | [📑](https://arxiv.org/abs/2103.13020) | [:octocat:](https://github.com/degraphcs/DeGraphCS)  |
+|    | title                                                                                   | venue   | task           | model             | dataset   | pdf                                        | code                                                 |
+|---:|:----------------------------------------------------------------------------------------|:--------|:---------------|:------------------|:----------|:-------------------------------------------|:-----------------------------------------------------|
+|  0 | PLUR: A Unifying, Graph-Based View of Program Learning, Understanding, and Repair       | NeurIPS | Program repair | graph-based model |           |                                            | [:octocat:](https://github.com/google-research/plur) |
+|  1 | deGraphCS: Embedding Variable-based Flow Graph for Neural Code Search                   | arxiv   | Code search    | graph-based model |           | [📑](https://arxiv.org/abs/2103.13020)     | [:octocat:](https://github.com/degraphcs/DeGraphCS)  |
+|  2 | GraphSearchNet: Enhancing GNNs via Capturing Global Dependency for Semantic Code Search | arxiv   | Code search    | graph-based model |           | [📑](https://arxiv.org/pdf/2111.02671.pdf) |                                                      |
 # 2020
 |    | title                                                        | venue   | task           | model             | dataset   | pdf                                    | code   |
 |---:|:-------------------------------------------------------------|:--------|:---------------|:------------------|:----------|:---------------------------------------|:-------|

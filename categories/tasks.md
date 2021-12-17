@@ -1,7 +1,8 @@
 # Code search
-|    | title                                                                 |   year | venue   | model             | dataset   | pdf                                    | code                                                |
-|---:|:----------------------------------------------------------------------|-------:|:--------|:------------------|:----------|:---------------------------------------|:----------------------------------------------------|
-|  0 | deGraphCS: Embedding Variable-based Flow Graph for Neural Code Search |   2021 | arxiv   | graph-based model |           | [📑](https://arxiv.org/abs/2103.13020) | [:octocat:](https://github.com/degraphcs/DeGraphCS) |
+|    | title                                                                                   |   year | venue   | model             | dataset   | pdf                                        | code                                                |
+|---:|:----------------------------------------------------------------------------------------|-------:|:--------|:------------------|:----------|:-------------------------------------------|:----------------------------------------------------|
+|  0 | deGraphCS: Embedding Variable-based Flow Graph for Neural Code Search                   |   2021 | arxiv   | graph-based model |           | [📑](https://arxiv.org/abs/2103.13020)     | [:octocat:](https://github.com/degraphcs/DeGraphCS) |
+|  1 | GraphSearchNet: Enhancing GNNs via Capturing Global Dependency for Semantic Code Search |   2021 | arxiv   | graph-based model |           | [📑](https://arxiv.org/pdf/2111.02671.pdf) |                                                     |
 # Program repair
 |    | title                                                                             |   year | venue   | model             | dataset   | pdf                                    | code                                                 |
 |---:|:----------------------------------------------------------------------------------|-------:|:--------|:------------------|:----------|:---------------------------------------|:-----------------------------------------------------|
