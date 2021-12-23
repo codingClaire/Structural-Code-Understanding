@@ -256,10 +256,22 @@
 | 252 | Retrieval-Augmented Generation for Code Summarization via Hybrid GNN                                                                        |   2020 | ICLR                                                                                                                               |        |           | [📑](https://www.semanticscholar.org/paper/ceaff192479db6faee58ae88e053b0b319cf1893) |        |
 | 253 | BERTScore: Evaluating Text Generation with BERT                                                                                             |   2019 | ICLR                                                                                                                               |        |           | [📑](https://www.semanticscholar.org/paper/295065d942abca0711300b2b4c39829551060578) |        |
 | 254 | Studying the Usage of Text-To-Text Transfer Transformer to Support Code-Related Tasks                                                       |   2021 | 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)                                                         |        |           | [📑](https://www.semanticscholar.org/paper/c2c7233293d55f201fe5b496234bed1914eea70e) |        |
+# GREAT
+|    | title                                   |   year | venue   | task           | dataset   | pdf                                              | code                                                      |
+|---:|:----------------------------------------|-------:|:--------|:---------------|:----------|:-------------------------------------------------|:----------------------------------------------------------|
+|  0 | Global Relational Models of Source Code |   2020 | ICLR    | program repair | py150     | [📑](https://openreview.net/forum?id=B1lnbRNtwr) | [:octocat:](https://github.com/VHellendoorn/ICLR20-Great) |
+# HAConvGNN
+|    | title                                                                                                                             |   year | venue   | task         | dataset                                                       | pdf                                    | code                                           |
+|---:|:----------------------------------------------------------------------------------------------------------------------------------|-------:|:--------|:-------------|:--------------------------------------------------------------|:---------------------------------------|:-----------------------------------------------|
+|  0 | HAConvGNN: Hierarchical Attention Based Convolutional Graph Neural Network for Code Documentation Generation in Jupyter Notebooks |   2022 | EMNLP   | code comment | [notebookcdg](https://paperswithcode.com/dataset/notebookcdg) | [📑](https://arxiv.org/abs/2104.01002) | [:octocat:](https://github.com/dakuo/haconvgn) |
+# MRGNN
+|    | title                                                                             |   year | venue   | task               | dataset       | pdf                                    | code   |
+|---:|:----------------------------------------------------------------------------------|-------:|:--------|:-------------------|:--------------|:---------------------------------------|:-------|
+|  0 | CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network |   2021 | arXiv   | Code Summarization | CodeSearchNet | [📑](https://arxiv.org/abs/2107.01933) |        |
 # TreeBERT
-|    | title                                                             |   year | venue   | task     | dataset   | pdf                                    | code   |
-|---:|:------------------------------------------------------------------|-------:|:--------|:---------|:----------|:---------------------------------------|:-------|
-|  0 | TreeBERT: A Tree-Based Pre-Trained Model for Programming Language |   2021 | UAI     | pretrain |           | [📑](https://arxiv.org/pdf/2105.12485) |        |
+|    | title                                                             |   year | venue   | task     | dataset   | pdf                                    | code                                           |
+|---:|:------------------------------------------------------------------|-------:|:--------|:---------|:----------|:---------------------------------------|:-----------------------------------------------|
+|  0 | TreeBERT: A Tree-Based Pre-Trained Model for Programming Language |   2021 | UAI     | pretrain |           | [📑](https://arxiv.org/abs/2105.12485) | [:octocat:](https://github.com/17385/TreeBERT) |
 # graph-based model
 |    | title                                                                                   |   year | venue   | task           | dataset   | pdf                                        | code                                                 |
 |---:|:----------------------------------------------------------------------------------------|-------:|:--------|:---------------|:----------|:-------------------------------------------|:-----------------------------------------------------|
