@@ -26,7 +26,7 @@
 > venue: 
 > task: Code Generation/Code Summarization/Safety Analysis/Program Repair/Program Classification/Others
 > model: CNN/Transformer/GNN/ (can use comma)
-> dataset: check if it is duplicate with different spellings
+> dataset: check if it is duplicated with different spellings
 > pdf: 
 > code: 
 
