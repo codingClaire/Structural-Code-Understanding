@@ -1,34 +1,32 @@
-# graph-in-code-understanding
-
-## Papers Categories
-
-### Sequence-based Models
-1. [By year](sequence_based_models/years.md)
-   
-2. [By task](sequence_based_models/tasks.md)
-   
-3. [By dataset](sequence_based_models/datasets.md)
-
-### Graph-based Models
-1. [By year](graph_based_models/years.md)
-   
-2. [By task](graph_based_models/tasks.md)
-   
-3. [By dataset](graph_based_models/datasets.md)
-
-## contribute to the repository
-
-1. git clone / git pull
-2. add new paper information in [sequence_based_models.md](sequence_based_models.md) with the following format:
-
-> title: 
-> year: 
-> venue: 
-> task: Code Generation/Code Summarization/Safety Analysis/Program Repair/Program Classification/Others
-> model: CNN/Transformer/GNN/ (can use comma)
-> dataset: check if it is duplicated with different spellings
-> pdf: 
-> code: 
-
-1. run script.py and check the generated markdown files
-2. git add / commit / push
+# Code Understanding Literatures in Deep Learning
+## Sequence-based Models
+### [By years](sequence_based_models/years.md)
+* 2021:2 paper(s)
+* 2020:1 paper(s)
+### [By tasks](sequence_based_models/tasks.md)
+* Code Summarization:1 paper(s)
+* pretrain:1 paper(s)
+* program repair:1 paper(s)
+### [By datasets](sequence_based_models/datasets.md)
+* Uncategorized:1 paper(s)
+* CodeSearchNet:1 paper(s)
+* py150:1 paper(s)
+### [By models](sequence_based_models/models.md)
+* GREAT:1 paper(s)
+* MRGNN:1 paper(s)
+* TreeBERT:1 paper(s)
+## Graph-based Models
+### [By years](graph_based_models/years.md)
+* 2021:2 paper(s)
+* Uncategorized:1 paper(s)
+### [By tasks](graph_based_models/tasks.md)
+* Uncategorized:1 paper(s)
+* Code Comment:1 paper(s)
+* Code Completion:1 paper(s)
+### [By datasets](graph_based_models/datasets.md)
+* Uncategorized:2 paper(s)
+* [notebookcdg](https://paperswithcode.com/dataset/notebookcdg):1 paper(s)
+### [By models](graph_based_models/models.md)
+* Uncategorized:3 paper(s)
+* HAConvGNN:1 paper(s)
+* CCAG:1 paper(s)
