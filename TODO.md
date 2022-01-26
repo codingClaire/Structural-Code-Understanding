@@ -1,5 +1,6 @@
 # contribute to the repository
-
+0. requirements:
+`pip install tabulate`
 1. git clone / git pull
 2. add new paper information in [sequence_based_models.md](sequence_based_models.md) with the following format:
 
