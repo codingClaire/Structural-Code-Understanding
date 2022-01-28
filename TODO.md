@@ -15,3 +15,9 @@
 
 1. run script.py and check the generated markdown files
 2. git add / commit / push
+
+
+code-change-data:https://drive.google.com/ file/d/1wSl SN17tbATqlhNMO0O7sEkH9gqJ9Vr.
+
+
+code-comment pairs:A parallel corpus of python functions and documentation strings for automated code documentation and code generation

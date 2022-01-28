@@ -78,16 +78,7 @@ model:
 dataset:
 pdf:https://www.semanticscholar.org/paper/93ff001eb7ddd019c107879943126c74a973993b
 code:
- 
-title:Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
-year:2015
-venue:ACL
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/32de44f01a96d4473d21099d15e25bc2b9f08e2f
-code:
- 
+
 title:Convolutional Networks on Graphs for Learning Molecular Fingerprints
 year:2015
 venue:NIPS
@@ -205,15 +196,6 @@ dataset:
 pdf:https://www.semanticscholar.org/paper/cd8a9914d50b0ac63315872530274d158d6aff09
 code:
  
-title:Learning to Represent Programs with Graphs
-year:2017
-venue:ICLR
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/d0f2d7236e43f129744e88130fb71f8f872d2b31
-code:
- 
 title:Hierarchical Graph Representation Learning with Differentiable Pooling
 year:2018
 venue:NeurIPS
@@ -240,16 +222,7 @@ model:
 dataset:
 pdf:https://www.semanticscholar.org/paper/15d6f3d815d0ff176fafb14a3f46e5723ebac723
 code:
- 
-title:Structured Neural Summarization
-year:2018
-venue:ICLR
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/2225b7c480dc627e68f03e5321383f27e12cb1d7
-code:
- 
+
 title:Position-aware Graph Neural Networks
 year:2019
 venue:ICML
@@ -1315,16 +1288,7 @@ model:
 dataset:
 pdf:https://www.semanticscholar.org/paper/073bbfc1fd41a9d67dd6f568ac7e8dff5b2c9c95
 code:
- 
-title:Improving Automatic Source Code Summarization via Deep Reinforcement Learning
-year:2018
-venue:2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/077ea3a496bd76bd22d76c432b79b9fa40e136e8
-code:
- 
+
 title:Shinobi: A Novel Approach for Context-Driven Testing (CDT) Using Heuristics and Machine Learning for Web Applications
 year:2018
 venue:INISCOM
@@ -1640,16 +1604,6 @@ dataset:
 pdf:https://www.semanticscholar.org/paper/d693b540ca26dcce64a7d50b91dd573e94876d1c
 code:
  
-
-title:A Novel Neural Source Code Representation Based on Abstract Syntax Tree
-year:2019
-venue:2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/1432c8378b1cafa3f91f09fa743082d154fdab92
-code:
- 
 title:The program Dependence Graph and its Use in Optimization
 year:1984
 venue:Symposium on Programming
@@ -1702,15 +1656,6 @@ task:
 model:
 dataset:
 pdf:https://www.semanticscholar.org/paper/21d9d58ab9537d10927b749eaa1c8b8c5a970579
-code:
- 
-title:Improved Code Summarization via a Graph Neural Network
-year:2020
-venue:ICPC
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/c345b74be9f98cca9592cc376465118df5c9f2da
 code:
  
 title:A Topic Guided Pointer-Generator Model for Generating Natural Language Code Summaries
@@ -2352,15 +2297,6 @@ dataset:
 pdf:https://www.semanticscholar.org/paper/03f2e9c9fd3f85cafdbdb2a4ef812a562caf6ef1
 code:
  
-title:A Novel Neural Source Code Representation Based on Abstract Syntax Tree
-year:2019
-venue:2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/1432c8378b1cafa3f91f09fa743082d154fdab92
-code:
- 
 title:Big Code != Big Vocabulary: Open-Vocabulary Models for Source Code
 year:2020
 venue:2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)
@@ -2404,15 +2340,6 @@ task:
 model:
 dataset:
 pdf:https://www.semanticscholar.org/paper/d944bf7942297f5670192c5cd33191c26a87973e
-code:
- 
-title:Improving Code Summarization with Block-wise Abstract Syntax Tree Splitting
-year:2021
-venue:2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)
-task:
-model:
-dataset:
-pdf:https://www.semanticscholar.org/paper/63dd8dc93a6d101484b9a88b3604ef8a1b4e2994
 code:
  
 title:DeepDelta: learning to repair compilation errors

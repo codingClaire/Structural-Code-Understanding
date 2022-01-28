@@ -11,116 +11,107 @@ title:Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs
 year: 2021
 venue: AAAI
 task: Code Completion
-model: CCAG
-dataset:
+model: GAT
+dataset: JS150, PY150
 pdf: http://arxiv.org/abs/2103.09499
 code:
 
 title: CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees
-year:
-venue:
-task:
-model:
-dataset:
+year: 2021
+venue: EMNLP
+task: Code Summarization
+model: RNN,attention
+dataset: TL-CodeSum
 pdf: http://arxiv.org/abs/2108.12987
-code:
+code: https://anonymous. 4open.science/r/CAST/
 
 title: Learning to represent programs with graphs
 year: 2018
 venue: ICLR
-task:
-model:
-dataset:
-pdf:
+task: Bug Detection,Code Completion
+model: GGNN
+dataset: iclr18-prog-graphs-dataset
+pdf: https://arxiv.org/abs/1711.00740
 code: https://github.com/Microsoft/gated-graph-neural-network-samples
 
 title: A Novel Neural Source Code Representation Based on Abstract Syntax Tree
 year: 2019
 venue: ICSE
-task:
-model:
-dataset:
-pdf:
-code:
+task: Program Classification, Clone Detection
+model: bidirectional RNN
+dataset: OJClone,BCB
+pdf: https://www.semanticscholar.org/paper/1432c8378b1cafa3f91f09fa743082d154fdab92
+code: https://github.com/zhangj1994/astnn
 
 title: TBCNN: A tree-based convolutional neural network for programming language processing
 year: 2014
 venue: arixiv
-task:
-model:
-dataset:
-pdf:
-code:
+task: Program Classification,
+model: TBCNN
+dataset: [OJ](http://programming.grids.cn/)
+pdf: https://arxiv.org/abs/1409.5718v1
+code: https://sites.google.com/site/treebasedcnn/
 
 title: Capturing Source Code Semantics via Tree-based Convolution over API-enhanced AST
 year: 2019
-venue:
-task:
-model:
-dataset:
+venue: ACM International Conference on Computing Frontiers
+task: Clone Detection,Code Search, Code Summarization
+model: tree-based LSTM
+dataset:OJClone,BigCloneBench
 pdf: https://doi.org/10.1145/3310273.3321560
-code:
+code: https://github.com/milkfan/TBCAA
 
 title: Improving automatic source code summarization via deep reinforcement learning
 year: 2018
 venue: ASE
-task:
-model:
-dataset:
+task: Code summarization
+model: RNN,Tree-RNN
+dataset: code-comment pairs
 pdf: https://arxiv.org/abs/1811.07234v1
 code:
 
 title: CODIT: Code Editing with Tree-Based Neural Models
 year: 2020
 venue: IEEE Transactions on Software Engineering
-task:
-model:
-dataset:
+task: Program Repair
+model: LSTM
+dataset: Defects4J,Code-Change-Data
 pdf: http://arxiv.org/abs/1810.00314
-code:
-
-title: Improved semantic representations from tree-structured long short-Term memory networks
-year: 2015
-venue: ACL-IJCNLP
-task:
-model:
-dataset:
-pdf: https://arxiv.org/abs/1503.00075v3
-code:
+code: https://git.io/JJGwU
 
 title: Gated graph sequence neural networks
 year: 2015
 venue: ICLR
 task: Program Verification
-model:
-dataset:
-pdf:
-code:
+model: GGNN
+dataset: program variables dataset produced in this work
+pdf: http://arxiv.org/abs/1511.05493
+code: https://github.com/yujiali/ggnn
 
 title: Structured neural summarization
 year: 2019
 venue: ICLR
-task:
-model:
-dataset:
+task: Code summarization
+model: GGNN
+dataset: C# dataset,JAVA method naming datasets,PYTHON method documentation dataset
 pdf: https://arxiv.org/abs/1811.01824v4
-code:
+code: https://github.com/CoderPat/structured-neural-summarization
 
 title: GGF: A graph-based method for programming language syntax error correction
 year: 2020
 venue: ICPC
-task:
-model:
-dataset:
-pdf:
+task: Program Repair
+model: GGNN
+dataset: DeepFix dataset,CodeForces dataset
+pdf: https://dl.acm.org/doi/10.1145/3387904.3389252
 code:
 
 title: Improved code summarization via a graph neural network
 year: 2020
 venue: ICPC
-task:
-model:
-dataset:
+task: Code Summarization
+model: ConvGNN
+dataset: Java method-comment pairs
 pdf: https://arxiv.org/abs/2004.02843v2
 code:
 
