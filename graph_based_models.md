@@ -23,7 +23,7 @@ task: Code Summarization
 model: RNN,attention
 dataset: TL-CodeSum
 pdf: http://arxiv.org/abs/2108.12987
-code: https://anonymous. 4open.science/r/CAST/
+code: https://anonymous.4open.science/r/CAST/
 
 title: Learning to represent programs with graphs
 year: 2018
