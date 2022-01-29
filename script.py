@@ -18,11 +18,12 @@ def write_data(fname, dic, del_col):
 
 
 if __name__ == "__main__":
-    source_list = ["title", "year", "venue", "task", "model", "dataset", "pdf", "code"]
-    names=['sequence_based_models','graph_based_models']
+    source_list = ["title", "year", "venue",
+                   "task", "model", "dataset", "pdf", "code"]
+    names = ['sequence_based_models', 'graph_based_models']
     #names = ["graph_based_models"]
     print("#" * 10, "Begin", "#" * 10)
-    
+
     statistic_dic = {
         names[0]: {
             "years": {},
@@ -54,7 +55,8 @@ if __name__ == "__main__":
                         source_list[offset] + ":"
                     )
                     while content[lineno + offset][0] == " ":
-                        content[lineno + offset] = content[lineno + offset].strip(" ")
+                        content[lineno + offset] = content[lineno +
+                                                           offset].strip(" ")
                     paper.append(content[lineno + offset])
                 papers.append(paper)
             lineno += 1
@@ -70,39 +72,73 @@ if __name__ == "__main__":
         papers_df["code"] = papers_df["code"].map(
             lambda x: "[:octocat:](" + x[0:-1] + ")" if x != "\n" else x
         )
-        
+
         # sort by year
-        year_dic=dict(list(papers_df.groupby(papers_df["year"])))
-        year_dic=dict(sorted(year_dic.items(),key=lambda item:item[0],reverse=True))
-        write_data(name+"/years.md",year_dic,"year")
+        year_dic = dict(list(papers_df.groupby(papers_df["year"])))
+        year_dic = dict(
+            sorted(year_dic.items(), key=lambda item: item[0], reverse=True))
+        write_data(name+"/years.md", year_dic, "year")
         for k in year_dic.keys():
             statistic_dic[name]["years"][k] = year_dic[k].shape[0]
         print("Finish sort by years!")
 
-        # sort by task
-        task_dic=dict(list(papers_df.groupby(papers_df["task"])))
-        write_data(name+"/tasks.md",task_dic,"task")
+        ############ sort by task ############
+        total_tasks = []
+        task_dic = {}
+        for task_str in list(papers_df["task"]):
+            sublist = task_str.split(",")
+            for element in range(len(sublist)):
+                while(sublist[element][0] == ' '):
+                    sublist[element] = sublist[element][1:]
+                if(sublist[element][-1] != '\n'):
+                    sublist[element] = sublist[element]+'\n'
+            total_tasks.extend(sublist)
+
+        total_tasks = list(set(total_tasks))
+        for task in total_tasks:
+            bool = papers_df["task"].str.contains(task[0:-1])
+            tasks_df = papers_df[bool]
+            task_dic[task] = tasks_df
+        write_data(name + "/tasks.md", task_dic, "task")
         for k in task_dic.keys():
             statistic_dic[name]["tasks"][k] = task_dic[k].shape[0]
         print("Finish sort by tasks!")
-        
-        # sort by dataset
-        dataset_dic=dict(list(papers_df.groupby(papers_df["dataset"])))
-        write_data(name+"/datasets.md",dataset_dic,"dataset")
+
+        ############ sort by dataset ############
+        total_datasets = []
+        dataset_dic = {}
+        for dataset_str in list(papers_df["dataset"]):
+            sublist = dataset_str.split(",")
+            for element in range(len(sublist)):
+                while(sublist[element][0] == ' '):
+                    sublist[element] = sublist[element][1:]
+                if(sublist[element][-1] != '\n'):
+                    sublist[element] = sublist[element]+'\n'
+            total_datasets.extend(sublist)
+        total_datasets = list(set(total_datasets))
+        for dataset in total_datasets:
+            bool = papers_df["dataset"].str.contains(dataset[0:-1])
+            datasets_df = papers_df[bool]
+            dataset_dic[dataset] = datasets_df
+        write_data(name + "/datasets.md", dataset_dic, "dataset")
         for k in dataset_dic.keys():
             statistic_dic[name]["datasets"][k] = dataset_dic[k].shape[0]
         print("Finish sort by datasets!")
-        
 
-        # sort by model
+        ############ sort by model ############
         total_models = []
         model_dic = {}
         for model_str in list(papers_df["model"]):
             sublist = model_str.split(",")
+            for element in range(len(sublist)):
+                while(sublist[element][0] == ' '):
+                    sublist[element] = sublist[element][1:]
+                if(sublist[element][-1] != '\n'):
+                    sublist[element] = sublist[element]+'\n'
             total_models.extend(sublist)
         total_models = list(set(total_models))
         for model in total_models:
-            bool = papers_df["model"].str.contains(model)
+            bool = papers_df["model"].str.contains(model[0:-1])
             models_df = papers_df[bool]
             model_dic[model] = models_df
         write_data(name + "/models.md", model_dic, "model")
@@ -112,23 +148,25 @@ if __name__ == "__main__":
 
     # Write markdown files
     with open("README.md", "w", encoding="utf-8") as f:
-        categories=["years","tasks","datasets","models"]
+        categories = ["years", "tasks", "datasets", "models"]
         f.writelines("# Code Understanding Literatures in Deep Learning\n")
         f.writelines("## Sequence-based Models\n")
         for category in categories:
-            f.writelines("### [By "+category+"](sequence_based_models/"+category+".md)\n")
+            f.writelines(
+                "### [By "+category+"](sequence_based_models/"+category+".md)\n")
             for k in statistic_dic[names[0]][category].keys():
-                num=str(statistic_dic[names[0]][category][k])
-                k= "Uncategorized\n" if k=="\n" else k
+                num = str(statistic_dic[names[0]][category][k])
+                k = "Uncategorized\n" if k == "\n" else k
                 f.writelines(
-                    "* "+ k[0:-1]+ ":"+ num + " paper(s)\n"
+                    "- " + k[0:-1] + ":" + num + " paper(s)\n"
                 )
         f.writelines("## Graph-based Models\n")
         for category in categories:
-            f.writelines("### [By "+category+"](graph_based_models/"+category+".md)\n")
+            f.writelines(
+                "### [By "+category+"](graph_based_models/"+category+".md)\n")
             for k in statistic_dic[names[1]][category].keys():
-                num=str(statistic_dic[names[1]][category][k])
-                k= "Uncategorized\n" if k=="\n" else k
+                num = str(statistic_dic[names[1]][category][k])
+                k = "Uncategorized\n" if k == "\n" else k
                 f.writelines(
-                    "* "+ k[0:-1]+ ":"+ num + " paper(s)\n"
+                    "- " + k[0:-1] + ":" + num + " paper(s)\n"
                 )

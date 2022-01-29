@@ -3,7 +3,7 @@ year: 2021
 venue: EMNLP
 task: Code Comment
 model: HAConvGNN
-dataset: [notebookcdg](https://paperswithcode.com/dataset/notebookcdg)
+dataset: notebookcdg
 pdf: https://arxiv.org/abs/2104.01002
 code: https://github.com/xuyeliu/HAConvGNN
 
@@ -23,7 +23,7 @@ task: Code Summarization
 model: RNN,attention
 dataset: TL-CodeSum
 pdf: http://arxiv.org/abs/2108.12987
-code: https://anonymous. 4open.science/r/CAST/
+code: https://anonymous.4open.science/r/CAST/
 
 title: Learning to represent programs with graphs
 year: 2018
@@ -46,9 +46,9 @@ code: https://github.com/zhangj1994/astnn
 title: TBCNN: A tree-based convolutional neural network for programming language processing
 year: 2014
 venue: arixiv
-task: Program Classification,
+task: Program Classification
 model: TBCNN
-dataset: [OJ](http://programming.grids.cn/)
+dataset: OJ
 pdf: https://arxiv.org/abs/1409.5718v1
 code: https://sites.google.com/site/treebasedcnn/
 
@@ -64,7 +64,7 @@ code: https://github.com/milkfan/TBCAA
 title: Improving automatic source code summarization via deep reinforcement learning
 year: 2018
 venue: ASE
-task: Code summarization
+task: Code Summarization
 model: RNN,Tree-RNN
 dataset: code-comment pairs
 pdf: https://arxiv.org/abs/1811.07234v1
@@ -91,7 +91,7 @@ code: https://github.com/yujiali/ggnn
 title: Structured neural summarization
 year: 2019
 venue: ICLR
-task: Code summarization
+task: Code Summarization
 model: GGNN
 dataset: C# dataset,JAVA method naming datasets,PYTHON method documentation dataset
 pdf: https://arxiv.org/abs/1811.01824v4
