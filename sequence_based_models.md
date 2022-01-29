@@ -93,7 +93,7 @@ year: 2020
 venue: none
 task: Safety Analysis
 model: LSTM
-dataset: [ROMISE]http://openscience.us/repo/defect
+dataset: ROMISE
 pdf:  https://www.sciencedirect.com/science/article/pii/S2590118420300393?casa_token=pfmwUOVUKIUAAAAA:52j0Rrj6d777nC-sY7yPCjK3oj3gwipxCJ-_wq91PzWguaFqzcop76sXyBNuW6XupmKV9OaBDg
 code:
 
@@ -102,7 +102,7 @@ year: 2019
 venue: SIGKDD
 task: Code Generation
 model: Bi-LSTM
-dataset: [Python]https://paperswithcode.com/dataset/100doh
+dataset: Python
 pdf:  https://dl.acm.org/doi/pdf/10.1145/3292500.3330699
 code: https://github.com/Microsoft/PTVS
 
@@ -111,7 +111,7 @@ year: 2018
 venue: IJCAI
 task: Code Generation
 model: LSTM,pointer network
-dataset: [JS150,PY150] http://plml.ethz.ch
+dataset: JS150,PY150
 pdf:  https://ieeexplore.ieee.org/abstract/document/7985683
 code:https://github.com/jack57lee/neuralCodeCompletion
 
@@ -120,7 +120,7 @@ year: 2020
 venue: JSS
 task: Code Generation
 model: LSTM
-dataset: C, [python]https://github.com/LiuFang816/SALSTM_py_data
+dataset: C, python
 pdf:  https://www.sciencedirect.com/science/article/pii/S0164121220300297?casa_token=B2mvgbpiwFUAAAAA:kpOAhKMiSEnvJPN0as8qH-_8EMDK-pF5bu_e8TT6_4c6Kae5gMhvi-00_nzSC3Y4VHNzoAFzqQ
 code:
 
@@ -129,6 +129,6 @@ year: 2018
 venue: ICPC
 task: Code Generation
 model: LSTM
-dataset: [JS150,PY150] http://plml.ethz.ch
+dataset: JS150,PY150
 pdf:  https://openreview.net/pdf?id=rJbPBt9lg
 code:
