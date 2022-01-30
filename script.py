@@ -116,11 +116,13 @@ if __name__ == "__main__":
                     sublist[element] = sublist[element]+'\n'
             total_datasets.extend(sublist)
         total_datasets = list(set(total_datasets))
+        print(total_datasets)
         for dataset in total_datasets:
-            datasets_df = papers_df.loc[papers_df["dataset"].str.contains(
-                dataset[0:-1])]
+            print(dataset[0:-1])
+            bool = papers_df["dataset"].str.contains(dataset[0:-1])
+            datasets_df = papers_df[bool]
             dataset_dic[dataset] = datasets_df
-            
+
         write_data(name + "/datasets.md", dataset_dic, "dataset")
         for k in dataset_dic.keys():
             statistic_dic[name]["datasets"][k] = dataset_dic[k].shape[0]

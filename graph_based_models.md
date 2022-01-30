@@ -48,7 +48,7 @@ year: 2014
 venue: arixiv
 task: Program Classification
 model: TBCNN
-dataset: OJ
+dataset: OJClone
 pdf: https://arxiv.org/abs/1409.5718v1
 code: https://sites.google.com/site/treebasedcnn/
 
@@ -93,7 +93,7 @@ year: 2019
 venue: ICLR
 task: Code Summarization
 model: GGNN
-dataset: C# dataset,JAVA method naming datasets,PYTHON method documentation dataset
+dataset: C# dataset,JAVA method naming datasets, Python method documentation dataset
 pdf: https://arxiv.org/abs/1811.01824v4
 code: https://github.com/CoderPat/structured-neural-summarization
 
@@ -156,7 +156,7 @@ year: 2017
 venue: Proceedings of the ACM Conference on Computer and Communications Security
 task: Program Repair
 model: Structure2vec
-dataset: collected in this work; Genius Dataset
+dataset: collected in this work, Genius Dataset
 pdf: http://arxiv.org/abs/1708.06525
 code: https://github.com/xiaojunxu/dnn-binary-code-similarity
 
@@ -165,7 +165,7 @@ year: 2021
 venue: ASIA CCS
 task: Vulnerability Analysis
 model: GTN
-dataset: Validation dataset; Syntax similar dataset; ARM binary dataset;Firmware image dataset;
+dataset: Validation dataset, Syntax similar dataset, ARM binary dataset, Firmware image dataset
 pdf: https://www2.seas.gwu.edu/~howie/publications/BugGraph-ASIACCS21.pdf
 code:
 
@@ -206,118 +206,118 @@ pdf: https://ieeexplore.ieee.org/document/8809504
 code:
 
 title: Semantic Code Clone Detection Via Event Embedding Tree and GAT Network
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2020
+venue: QRS
+task: Clone Detection
+model: Transformer, GAT, CNN
+dataset: OJClone
+pdf: https://ieeexplore.ieee.org/document/9282778/
+code: https://github.com/lbzwoaini/CSEM.git
 
 title: How could Neural Networks understand Programs?
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2021
+venue: ICML
+task: Clone Detection
+model: Transformer
+dataset: OJClone
+pdf: http://arxiv.org/abs/2105.04297
+code: https://github.com/pdlan/OSCAR
 
 title: Multi-modal attention network learning for semantic source code retrieval
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+year: 2019
+venue: ASE
+task: Code Search
+model: GGNN, Tree-LSTM
+dataset: C dataset
+pdf: https://arxiv.org/abs/1909.13516v1
 code:
 
-title:Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+title: Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks
+year: 2019
+venue: NIPS
+task: Vulnerability Analysis
+model: GGNN, GRU, CNN
+dataset: Devign Dataset
+pdf: https://arxiv.org/abs/1909.03496v1
+code: https://sites.google.com/view/devign
 
-title:Flow2Vec: value-flow-based precise code embedding
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+title:Flow2Vec:value-flow-based precise code embedding
+year: 2020
+venue: Proceedings of the ACM on Program ming Languages
+task: Code Summarization, Program Classification
+model: Flow2Vec
+dataset: C Dataset
+pdf: https://dl.acm.org/doi/abs/10.1145/3428301
 code:
 
 title:Compiler-based graph representations for deep learning models of code
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2020
+venue: Proceedings of the 29th International Conference on Compiler Construction
+task: Program Classification
+model: GGNN
+dataset: OpenCL Dataset
+pdf: https://doi.org/10.1145/3377555.3377894
+code: https:ithub.com/tud-ccc/learning-compiler-graphs
 
 title: DeepSim: Deep Learning Code Functional Similarity
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2018
+venue: ESEC/FSE
+task: Clone Detection
+model: Feed-forward neural network
+dataset: Google Code Jam (GCJ), BigCloneBench
+pdf: https://doi.org/10.1145/3236024.3236068
+code: https://github.com/parasol-aser/deepsim
 
 title: CoCoSum: Contextual Code Summarization with Multi-Relational Graph Neural Network
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+year: 2021
+venue: arxiv
+task: Code Summarization
+model: Transformer,Multi-Relational Graph Neural Network
+dataset: CodeSearchNet, CoCoNet
+pdf: https://arxiv.org/abs/2107.01933v1
 code:
 
 title: Improving bug detection via context-based code representation learning and attention-based neural networks
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+year: 2019
+venue: Proceedings of the ACM on Programming Languages
+task: Defect Prediction
+model: GRU, CNN, Attention mechanism
+dataset: Java Dataset collected in this work
+pdf: https://dl.acm.org/doi/abs/10.1145/3360588
 code:
 
 title: Modeling and discovering vulnerabilities with code property graphs
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+year: 2014
+venue: Proceedings IEEE Symposium on Security and Privacy
+task: Vulnerability Analysis
+model: code property graphs
+dataset: Linux kernel's code collected in this work
+pdf: http://ieeexplore.ieee.org/document/6956589/
 code:
 
 title: Retrieval-Augmented Generation for Code Summarization via Hybrid GNN
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2021
+venue: ICLR
+task: Code Summarization
+model: GNN
+dataset: C Program Dataset
+pdf: https://arxiv.org/abs/2006.05405v5
+code: https://github.com/shangqing-liu/CCSD-benchmark-for-code-summarization
 
 title: Probabilistic model for code with decision trees
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
+year: 2016
+venue: SIGPLAN
+task: Code Generation
+model: Decision tree
+dataset: PY150, JS150
+pdf: https://dl.acm.org/doi/10.1145/2983990.2984041
 code:
 
 title: Open vocabulary learning on source code with a graph-structured caches
-year:
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+year: 2019
+venue: ICML
+task: Code Generation
+model: MPNN,CharCNN
+dataset: Java repos collected in this work
+pdf: https://arxiv.org/abs/1810.08305v2
+code: https://github.com/mwcvitkovic/Deep_Learning_On_Code_With_A_Graph_Vocabulary
