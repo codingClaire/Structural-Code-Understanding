@@ -118,105 +118,204 @@ code:
 title: Code Clone Detection with Hierarchical Attentive Graph Embedding
 year: 2021
 venue: International Journal of Software Engineering and Knowledge Engineering
-task:
-model:
-dataset:
-pdf:
-code:
-
-title: HAConvGNN: Hierarchical Attention Based Convolutional Graph Neural Network for Code Documentation Generation in Jupyter Notebooks
-year: 2021
-venue: EMNLP
-task:
-model:
-dataset:
-pdf: https://arxiv.org/abs/2104.01002v2
+task: Clone Detection
+model: GCN
+dataset: IJDataset2.0
+pdf: https://www.worldscientific.com/doi/abs/10.1142/S021819402150025X
 code:
 
 title: Graph-based, Self-Supervised Program Repair from Diagnostic Feedback
 year: 2020
-venue:
-task:
-model:
-dataset:
-pdf:
-code:
+venue: ICML
+task: Program Repair
+model: GAT, LSTM
+dataset: SPoC
+pdf: http://arxiv.org/abs/2005.10636
+code: https://github.com/michiyasunaga/DrRepair
 
 title: Generative code modeling with graphs
 year: 2019
 venue: ICLR
-task:
-model:
-dataset:
+task: Program Repair,Code Generation
+model: GRU,GGNN
+dataset: C# dataset
 pdf: https://arxiv.org/abs/1805.08490v2
-code:
+code: https://github.com/Microsoft/graph-based-code-modelling
 
 title: Improving Code Summarization with Block-wise Abstract Syntax Tree Splitting
 year: 2021
 venue: ICPC
-task:
-model:
-dataset:
+task: Code Summarization
+model: Tree-LSTM
+dataset: CodeSearchNet, Hybrid-DeepCom Dataset
 pdf: https://arxiv.org/abs/2103.07845v2
-code:
-
-title: Scalable graph-based bug search for firmware images
-year: 2016
-venue: Proceedings of the ACM Conference on Computer and Communications Security
-task:
-model:
-dataset:
-pdf: http://dx.doi.org/10.1145/2976749.2978370
-code:
+code: https://github.com/XMUDM/BASTS
 
 title: Neural network-based graph embedding for cross-platform binary code similarity detection
 year: 2017
 venue: Proceedings of the ACM Conference on Computer and Communications Security
-task:
-model:
-dataset:
+task: Program Repair
+model: Structure2vec
+dataset: collected in this work; Genius Dataset
 pdf: http://arxiv.org/abs/1708.06525
-code:
+code: https://github.com/xiaojunxu/dnn-binary-code-similarity
 
 title: BugGraph: Differentiating Source-Binary Code Similarity with Graph Triplet-Loss Network
 year: 2021
 venue: ASIA CCS
-task:
-model:
-dataset:
-pdf:
+task: Vulnerability Analysis
+model: GTN
+dataset: Validation dataset; Syntax similar dataset; ARM binary dataset;Firmware image dataset;
+pdf: https://www2.seas.gwu.edu/~howie/publications/BugGraph-ASIACCS21.pdf
 code:
 
 title: DeepBinDiff: Learning Program-Wide Code Representations for Binary Diffing
 year: 2020
-venue:
-task:
-model:
-dataset:
+venue: NDSS
+task: Clone Detection
+model: Text-associated DeepWalk
+dataset: Coreutils, Diffutils, Findutils
 pdf: https://dx.doi.org/10.14722/ndss.2020.24311
-code:
+code: https://github.com/deepbindiff/DeepBinDiff
 
 title: Order matters: Semantic-aware neural networks for binary code similarity detection
 year: 2020
-venue:
-task:
-model:
-dataset:
+venue: AAAI
+task: Clone Detection
+model: MPNN,CNN
+dataset: gcc dataset
 pdf: https://ojs.aaai.org/index.php/AAAI/article/view/5466
 code:
 
 title: Learning semantic program embeddings with graph interval neural network
 year: 2020
 venue: Proceedings of the ACM on Programming Languages
+task: Program Repair
+model: GINN
+dataset: PY150
+pdf: https://arxiv.org/abs/2005.09997v2
+code:
+
+title: Classifying Malware Represented as Control Flow Graphs using Deep Graph Convolutional Neural Network
+year: 2019
+venue:Annual IEEE/IFIP International Conference on Dependable Systems and Networks, DSN
+task: Defect prediction
+model: DGCNN
+dataset: MSKCFG Dataset, YANCFG Dataset
+pdf: https://ieeexplore.ieee.org/document/8809504
+code:
+
+title: Semantic Code Clone Detection Via Event Embedding Tree and GAT Network
+year:
+venue:
 task:
 model:
 dataset:
 pdf:
 code:
 
-title: Classifying Malware Represented as Control Flow Graphs using Deep Graph Convolutional Neural Network
-year: 2019
-venue:Annual IEEE/IFIP International Conference on Dependable Systems and Networks, DSN
+title: How could Neural Networks understand Programs?
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Multi-modal attention network learning for semantic source code retrieval
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title:Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title:Flow2Vec: value-flow-based precise code embedding
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title:Compiler-based graph representations for deep learning models of code
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: DeepSim: Deep Learning Code Functional Similarity
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: CoCoSum: Contextual Code Summarization with Multi-Relational Graph Neural Network
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Improving bug detection via context-based code representation learning and attention-based neural networks
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Modeling and discovering vulnerabilities with code property graphs
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Retrieval-Augmented Generation for Code Summarization via Hybrid GNN
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Probabilistic model for code with decision trees
+year:
+venue:
+task:
+model:
+dataset:
+pdf:
+code:
+
+title: Open vocabulary learning on source code with a graph-structured caches
+year:
+venue:
 task:
 model:
 dataset:
