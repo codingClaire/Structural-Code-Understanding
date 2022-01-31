@@ -1,7 +1,7 @@
 title:HAConvGNN: Hierarchical Attention Based Convolutional Graph Neural Network for Code Documentation Generation in Jupyter Notebooks
 year: 2021
 venue: EMNLP
-task: Code Comment
+task: Code Summarization
 model: HAConvGNN
 dataset: notebookcdg
 pdf: https://arxiv.org/abs/2104.01002
@@ -10,7 +10,7 @@ code: https://github.com/xuyeliu/HAConvGNN
 title:Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs
 year: 2021
 venue: AAAI
-task: Code Completion
+task: Code Generation
 model: GAT
 dataset: JS150, PY150
 pdf: http://arxiv.org/abs/2103.09499
@@ -28,7 +28,7 @@ code: https://anonymous.4open.science/r/CAST/
 title: Learning to represent programs with graphs
 year: 2018
 venue: ICLR
-task: Bug Detection,Code Completion
+task: Defect Prediction,Code Generation
 model: GGNN
 dataset: iclr18-prog-graphs-dataset
 pdf: https://arxiv.org/abs/1711.00740
@@ -163,7 +163,7 @@ code: https://github.com/xiaojunxu/dnn-binary-code-similarity
 title: BugGraph: Differentiating Source-Binary Code Similarity with Graph Triplet-Loss Network
 year: 2021
 venue: ASIA CCS
-task: Vulnerability Analysis
+task: Vulnerability Detection
 model: GTN
 dataset: Validation dataset, Syntax similar dataset, ARM binary dataset, Firmware image dataset
 pdf: https://www2.seas.gwu.edu/~howie/publications/BugGraph-ASIACCS21.pdf
@@ -199,7 +199,7 @@ code:
 title: Classifying Malware Represented as Control Flow Graphs using Deep Graph Convolutional Neural Network
 year: 2019
 venue:Annual IEEE/IFIP International Conference on Dependable Systems and Networks, DSN
-task: Defect prediction
+task: Defect Prediction
 model: DGCNN
 dataset: MSKCFG Dataset, YANCFG Dataset
 pdf: https://ieeexplore.ieee.org/document/8809504
@@ -235,7 +235,7 @@ code:
 title: Devign: Effective Vulnerability Identification by Learning Comprehensive Program Semantics via Graph Neural Networks
 year: 2019
 venue: NIPS
-task: Vulnerability Analysis
+task: Vulnerability Detection
 model: GGNN, GRU, CNN
 dataset: Devign Dataset
 pdf: https://arxiv.org/abs/1909.03496v1
@@ -289,7 +289,7 @@ code:
 title: Modeling and discovering vulnerabilities with code property graphs
 year: 2014
 venue: Proceedings IEEE Symposium on Security and Privacy
-task: Vulnerability Analysis
+task: Vulnerability Detection
 model: code property graphs
 dataset: Linux kernel's code collected in this work
 pdf: http://ieeexplore.ieee.org/document/6956589/

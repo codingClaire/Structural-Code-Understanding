@@ -9,7 +9,7 @@ def write_data(fname, dic, del_col):
     with open(fname, "w", encoding="utf-8") as f:
         for k in dic.keys():
             df_k = dic[k].reset_index(drop=True)
-            del df_k[del_col]
+            #del df_k[del_col]
             if k == "\n":
                 k = "Uncategorized\n"
             f.writelines("# " + k)
@@ -116,9 +116,9 @@ if __name__ == "__main__":
                     sublist[element] = sublist[element]+'\n'
             total_datasets.extend(sublist)
         total_datasets = list(set(total_datasets))
-        print(total_datasets)
+        #print(total_datasets)
         for dataset in total_datasets:
-            print(dataset[0:-1])
+            #print(dataset[0:-1])
             bool = papers_df["dataset"].str.contains(dataset[0:-1])
             datasets_df = papers_df[bool]
             dataset_dic[dataset] = datasets_df
@@ -154,6 +154,10 @@ if __name__ == "__main__":
         categories = ["years", "tasks", "datasets", "models"]
         f.writelines("# Code Understanding Literatures in Deep Learning\n")
         f.writelines("## Sequence-based Models\n")
+        total_number=0
+        for k in statistic_dic[names[0]]["years"].keys():
+            total_number+=statistic_dic[names[0]]["years"][k]
+        f.writelines("Total: "+ str(total_number)+" papers\n")
         for category in categories:
             f.writelines(
                 "### [By "+category+"](sequence_based_models/"+category+".md)\n")
@@ -164,6 +168,10 @@ if __name__ == "__main__":
                     "- " + k[0:-1] + ":" + num + " paper(s)\n"
                 )
         f.writelines("## Graph-based Models\n")
+        total_number = 0
+        for k in statistic_dic[names[1]]["years"].keys():
+            total_number += statistic_dic[names[1]]["years"][k]
+        f.writelines("Total: " + str(total_number)+" papers\n")
         for category in categories:
             f.writelines(
                 "### [By "+category+"](graph_based_models/"+category+".md)\n")
