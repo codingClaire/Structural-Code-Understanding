@@ -28,7 +28,7 @@ code: https://github.com/tech-srl/code2seq
 title: A convolutional attention network for extreme summarization of source code
 year: 2016
 venue: ICML
-task: Code Generation
+task: Code Summarization
 model: CAN
 dataset: Java
 pdf:  http://proceedings.mlr.press/v48/allamanis16.html
@@ -37,7 +37,7 @@ code: https://github.com/mast-group/convolutional-attention
 title: Summarizing Source Code using a Neural Attention Model
 year: 2016
 venue: ACL
-task: Code Generation
+task: Code Summarization
 model: LSTM
 dataset: C#
 pdf:  https://aclanthology.org/P16-1195.pdf
@@ -109,7 +109,7 @@ code:
 title: Deep code comment generation
 year: 2018
 venue: ICPC
-task: Code Generation
+task: Code Summarization
 model: LSTM
 dataset: 
 pdf:  https://ieeexplore.ieee.org/abstract/document/8973050
@@ -118,7 +118,7 @@ code:https://github.com/LRNavin/AutoComments
 title: Deep code comment generation with hybrid lexical and syntactical information
 year: 2020
 venue: FSE/EFEC
-task: Code Generation
+task: Code Summarization
 model: GRU
 dataset: 9714 Java projects from GitHub
 pdf:  https://link.springer.com/article/10.1007/s10664-019-09730-9
@@ -127,7 +127,7 @@ code: https://github.com/Rick-Feng-u/Deep-code-comment-generation
 title: A neural model for generating natural language summaries of program subroutines
 year: 2019
 venue: ICSE
-task: Code Generation
+task: Code Summarization
 model: GRU
 dataset: 
 pdf:  https://arxiv.org/pdf/1902.01954v1.pdf
@@ -155,7 +155,7 @@ code:
 title:TreeBERT: A Tree-Based Pre-Trained Model for Programming Language
 year:2021
 venue:UAI
-task: pretrain
+task: Pretrain
 model: TreeBERT
 dataset:
 pdf: https://arxiv.org/abs/2105.12485
