@@ -1,4 +1,4 @@
-# Code Understanding Literatures in Deep Learning
+# Deep Learning Models for Structural Code Understanding
 ## Sequence-based Models
 Total: 37 papers
 ### [By years](sequence_based_models/years.md)
